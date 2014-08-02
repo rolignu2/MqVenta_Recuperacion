@@ -1,0 +1,30 @@
+<!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.mqventa_recuperacion">
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="18"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.example.mqventa_recuperacion.MqVentaMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_mq_recuperacion" android:name="com.example.mqventa_recuperacion.MqRecuperacion">
+        </activity>
+        <activity android:label="@string/title_activity_mq_clientes" android:name="com.example.mqventa_recuperacion.MqClientes">
+        </activity>
+        <activity android:label="@string/title_activity_mq_entrada__recuperacion" android:name="com.example.mqventa_recuperacion.MqEntrada_Recuperacion">
+        </activity>
+        <activity android:label="@string/title_activity_mq_ver_cliente_recuperacion" android:name="com.example.mqventa_recuperacion.MqVerClienteRecuperacion">
+        </activity>
+        <activity android:label="@string/title_activity_crear_recuperacion_mq_recuperacion" android:name="com.example.mqventa_recuperacion.CrearRecuperacion_mq_recuperacion">
+        </activity>
+        <activity android:label="@string/title_activity_crecuperacion__mq" android:name="com.example.mqventa_recuperacion.CRecuperacion_MQ">
+        </activity>
+    </application>
+
+</manifest>

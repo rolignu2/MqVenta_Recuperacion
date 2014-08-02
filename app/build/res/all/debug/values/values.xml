@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/strings_activity_crear_recuperacion_mq_recuperacion.xml -->
+    <eat-comment />
+
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/Colores.xml -->
+    <eat-comment />
+
+    <color name="azul">#0000ff</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="rojo">#ff0000</color>
+    <color name="verde">#00ff00</color>
+    <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">MQ  Venta y Recuperacion version movil</string>
+    <string name="deprecation">deprecation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nombres_">Nombres:</string>
+    <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/strings_activity_crear_recuperacion_mq_recuperacion.xml -->
+    <eat-comment />
+
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="registro_recuperacion">Registro Recuperacion</string>
+    <string name="textview">TextView</string>
+    <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/strings_activity_crear_recuperacion_mq_recuperacion.xml -->
+    <eat-comment />
+
+    <string name="title_activity_crear_recuperacion_mq_recuperacion">Crear una recuperacion</string>
+    <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="title_activity_crecuperacion__mq">CRecuperacion_MQ</string>
+    <string name="title_activity_mq_clientes">MqClientes</string>
+    <string name="title_activity_mq_entrada__recuperacion">MqEntrada_Recuperacion</string>
+    <string name="title_activity_mq_recuperacion">MqRecuperacion</string>
+    <string name="title_activity_mq_ver_cliente_recuperacion">MqVerClienteRecuperacion</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

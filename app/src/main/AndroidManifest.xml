@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mqventa_recuperacion"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mqventa_recuperacion.MqVentaMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mqventa_recuperacion.MqRecuperacion"
+            android:label="@string/title_activity_mq_recuperacion" >
+        </activity>
+        <activity
+            android:name="com.example.mqventa_recuperacion.MqClientes"
+            android:label="@string/title_activity_mq_clientes" >
+        </activity>
+        <activity
+            android:name="com.example.mqventa_recuperacion.MqEntrada_Recuperacion"
+            android:label="@string/title_activity_mq_entrada__recuperacion" >
+        </activity>
+        <activity
+            android:name="com.example.mqventa_recuperacion.MqVerClienteRecuperacion"
+            android:label="@string/title_activity_mq_ver_cliente_recuperacion" >
+        </activity>
+        <activity
+            android:name="com.example.mqventa_recuperacion.CrearRecuperacion_mq_recuperacion"
+            android:label="@string/title_activity_crear_recuperacion_mq_recuperacion" >
+        </activity>
+        <activity
+            android:name="com.example.mqventa_recuperacion.CRecuperacion_MQ"
+            android:label="@string/title_activity_crecuperacion__mq" >
+        </activity>
+    </application>
+
+</manifest>

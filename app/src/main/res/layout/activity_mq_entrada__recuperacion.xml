@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MqEntrada_Recuperacion" >
+
+    <TextView
+        android:id="@+id/textView_superior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView_imagen"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/imageView_imagen"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView_inferior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView_superior"
+        android:layout_below="@+id/textView_superior"
+        android:layout_marginRight="14dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/imageView_imagen"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Descripción del contenido de la imagen"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+</RelativeLayout>
