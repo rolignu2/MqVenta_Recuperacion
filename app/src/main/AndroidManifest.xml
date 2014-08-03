@@ -48,6 +48,10 @@
             android:name="com.example.mqventa_recuperacion.CRecuperacion_MQ"
             android:label="@string/title_activity_crecuperacion__mq" >
         </activity>
+        <activity
+            android:name="com.example.mqventa_recuperacion.MqProductos"
+            android:label="@string/title_activity_mq_productos" >
+        </activity>
     </application>
 
 </manifest>

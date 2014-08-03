@@ -76,7 +76,11 @@ public class MqVentaMain extends Activity {
 		 //eventos para botones 
 		 this.Eventos_Click();
 	}
-	
+
+
+    /*prepara la lista de datos a mostrar
+    *
+    * */
 	private Runnable PrepararLista = new Runnable() {
 		
 		public void run(){
@@ -163,7 +167,8 @@ public class MqVentaMain extends Activity {
     };
 
 	
-	@SuppressLint("CutPasteId")
+
+    /*Eventos inciales para los botones*/
 	private void Eventos_Click()
 	{
 		this.cmd_recuperacion = (Button)super.findViewById(R.id.cmd_recuperacion);
@@ -184,14 +189,20 @@ public class MqVentaMain extends Activity {
 				 Ejecutar_Recuperacion(v);
 			}
 		});
-		
-		
+
 		this.cmd_crearRecuperacion.setOnClickListener(new android.view.View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				Ejecutar_CreacionRecuperacion(v);
 			}
 		});
+
+        this.cmd_productos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Ejecutar_Productos(view);
+            }
+        });
 	
 	}
 	
@@ -210,5 +221,11 @@ public class MqVentaMain extends Activity {
 		Intent i = new Intent(this, MqClientes.class);
 		startActivity(i);
 	}
+
+    public void Ejecutar_Productos(View view)
+    {
+        Intent i = new Intent(this,MqProductos.class);
+        startActivity(i);
+    }
 
 }

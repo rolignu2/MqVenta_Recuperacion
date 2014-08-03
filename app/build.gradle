@@ -18,6 +18,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:+'
+    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.android.support:support-v13:+'
     compile files('libs/mysql-connector-java-5.0.8-bin.jar')
 }
