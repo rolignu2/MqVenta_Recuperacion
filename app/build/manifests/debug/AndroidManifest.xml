@@ -25,6 +25,8 @@
         </activity>
         <activity android:label="@string/title_activity_crecuperacion__mq" android:name="com.example.mqventa_recuperacion.CRecuperacion_MQ">
         </activity>
+        <activity android:label="@string/title_activity_mq_productos" android:name="com.example.mqventa_recuperacion.MqProductos">
+        </activity>
     </application>
 
 </manifest>

@@ -68,7 +68,7 @@
                 android:gravity="center"
                 android:shadowColor="@color/rojo"
                 android:shadowRadius="25"
-                android:text="Registro Clientes"
+                android:text="Clientes"
                 android:textColor="@color/blanco" />
 
             <Button
@@ -80,7 +80,7 @@
                 android:gravity="center"
                 android:shadowColor="@color/rojo"
                 android:shadowRadius="25"
-                android:text="Registro Productos"
+                android:text="Productos"
                 android:textColor="@color/blanco" />
         </LinearLayout>
 

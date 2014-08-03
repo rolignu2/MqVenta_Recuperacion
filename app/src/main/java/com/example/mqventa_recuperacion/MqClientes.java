@@ -77,7 +77,7 @@ public class MqClientes extends Activity {
 		return true;
 	}
 	
-	/*importante aca se coloca toda configuracion de las pestañas o tabs */
+
 	private void ConfiguracionTab()
 	{
 		@SuppressWarnings("unused")

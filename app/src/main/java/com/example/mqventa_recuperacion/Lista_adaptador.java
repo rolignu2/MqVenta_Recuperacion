@@ -54,10 +54,7 @@ public abstract class Lista_adaptador extends BaseAdapter {
         return posicion;
     }
 
-    /** Devuelve cada una de las entradas con cada una de las vistas a la que debe de ser asociada
-     * @param entrada La entrada que será la asociada a la view. La entrada es del tipo del paquete/handler
-     * @param view View particular que contendrá los datos del paquete/handler
-     */
+
     public abstract void onEntrada (Object entrada, View view);
 
 }

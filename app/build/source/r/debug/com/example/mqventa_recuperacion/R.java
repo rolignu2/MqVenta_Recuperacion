@@ -41,27 +41,28 @@ public final class R {
         public static final int shopping32=0x7f02000b;
     }
     public static final class id {
-        public static final int FrmPrincipal=0x7f0b001c;
-        public static final int ListClientes=0x7f0b001a;
+        public static final int FrmPrincipal=0x7f0b001d;
+        public static final int ListClientes=0x7f0b001b;
         public static final int ListaClientes_Cliente=0x7f0b0014;
-        public static final int Menu_lista_expandible=0x7f0b001e;
-        public static final int TxtRecuperacion_Buscador=0x7f0b001b;
-        public static final int action_settings=0x7f0b0027;
-        public static final int barra_progreso_recuperacion=0x7f0b0019;
-        public static final int cmd_clientes=0x7f0b0021;
-        public static final int cmd_crear_recup_main=0x7f0b0020;
-        public static final int cmd_productos=0x7f0b0022;
-        public static final int cmd_recuperacion=0x7f0b001f;
+        public static final int Menu_lista_expandible=0x7f0b001f;
+        public static final int TxtRecuperacion_Buscador=0x7f0b001c;
+        public static final int action_settings=0x7f0b0028;
+        public static final int barra_progreso_recuperacion=0x7f0b001a;
+        public static final int cmd_clientes=0x7f0b0022;
+        public static final int cmd_crear_recup_main=0x7f0b0021;
+        public static final int cmd_productos=0x7f0b0023;
+        public static final int cmd_recuperacion=0x7f0b0020;
         public static final int cmd_registrar_cliente=0x7f0b0012;
         public static final int container=0x7f0b0000;
-        public static final int frameLayout1=0x7f0b0018;
+        public static final int frameLayout1=0x7f0b0019;
         public static final int imageView_imagen=0x7f0b0016;
-        public static final int lblListHeader=0x7f0b0025;
-        public static final int lblListItem=0x7f0b0026;
-        public static final int lbltitulo=0x7f0b001d;
-        public static final int lineal=0x7f0b0023;
+        public static final int lblListHeader=0x7f0b0026;
+        public static final int lblListItem=0x7f0b0027;
+        public static final int lbltitulo=0x7f0b001e;
+        public static final int lineal=0x7f0b0024;
+        public static final int pager=0x7f0b0018;
         public static final int scrollView1=0x7f0b0001;
-        public static final int section_label=0x7f0b0024;
+        public static final int section_label=0x7f0b0025;
         public static final int tab1=0x7f0b0002;
         public static final int tab2=0x7f0b0013;
         public static final int textView1=0x7f0b0003;
@@ -86,20 +87,23 @@ public final class R {
         public static final int activity_crecuperacion__mq=0x7f030000;
         public static final int activity_mq_clientes=0x7f030001;
         public static final int activity_mq_entrada__recuperacion=0x7f030002;
-        public static final int activity_mq_recuperacion=0x7f030003;
-        public static final int activity_mq_venta_main=0x7f030004;
-        public static final int activity_mq_ver_cliente_recuperacion=0x7f030005;
-        public static final int fragment_crecuperacion__mq_dummy=0x7f030006;
-        public static final int list_group=0x7f030007;
-        public static final int list_item=0x7f030008;
+        public static final int activity_mq_productos=0x7f030003;
+        public static final int activity_mq_recuperacion=0x7f030004;
+        public static final int activity_mq_venta_main=0x7f030005;
+        public static final int activity_mq_ver_cliente_recuperacion=0x7f030006;
+        public static final int fragment_crecuperacion__mq_dummy=0x7f030007;
+        public static final int fragment_mq_productos=0x7f030008;
+        public static final int list_group=0x7f030009;
+        public static final int list_item=0x7f03000a;
     }
     public static final class menu {
         public static final int crecuperacion__mq=0x7f0a0000;
         public static final int mq_clientes=0x7f0a0001;
         public static final int mq_entrada__recuperacion=0x7f0a0002;
-        public static final int mq_recuperacion=0x7f0a0003;
-        public static final int mq_venta_main=0x7f0a0004;
-        public static final int mq_ver_cliente_recuperacion=0x7f0a0005;
+        public static final int mq_productos=0x7f0a0003;
+        public static final int mq_recuperacion=0x7f0a0004;
+        public static final int mq_venta_main=0x7f0a0005;
+        public static final int mq_ver_cliente_recuperacion=0x7f0a0006;
     }
     public static final class string {
         public static final int action_settings=0x7f080000;
@@ -127,11 +131,12 @@ public final class R {
         public static final int title_activity_crecuperacion__mq=0x7f080016;
         public static final int title_activity_mq_clientes=0x7f080017;
         public static final int title_activity_mq_entrada__recuperacion=0x7f080018;
-        public static final int title_activity_mq_recuperacion=0x7f080019;
-        public static final int title_activity_mq_ver_cliente_recuperacion=0x7f08001a;
-        public static final int title_section1=0x7f08001b;
-        public static final int title_section2=0x7f08001c;
-        public static final int title_section3=0x7f08001d;
+        public static final int title_activity_mq_productos=0x7f080019;
+        public static final int title_activity_mq_recuperacion=0x7f08001a;
+        public static final int title_activity_mq_ver_cliente_recuperacion=0x7f08001b;
+        public static final int title_section1=0x7f08001c;
+        public static final int title_section2=0x7f08001d;
+        public static final int title_section3=0x7f08001e;
     }
     public static final class style {
         /** 

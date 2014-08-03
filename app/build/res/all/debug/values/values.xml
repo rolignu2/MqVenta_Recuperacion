@@ -82,6 +82,7 @@
     <string name="title_activity_crecuperacion__mq">CRecuperacion_MQ</string>
     <string name="title_activity_mq_clientes">MqClientes</string>
     <string name="title_activity_mq_entrada__recuperacion">MqEntrada_Recuperacion</string>
+    <string name="title_activity_mq_productos">"MQ Manejo de Productos "</string>
     <string name="title_activity_mq_recuperacion">MqRecuperacion</string>
     <string name="title_activity_mq_ver_cliente_recuperacion">MqVerClienteRecuperacion</string>
     <string name="title_section1">Section 1</string>
