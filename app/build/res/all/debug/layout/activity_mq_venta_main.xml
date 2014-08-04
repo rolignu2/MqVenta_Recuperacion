@@ -32,7 +32,7 @@
                 android:id="@+id/Menu_lista_expandible"
                 android:layout_width="match_parent"
                 android:layout_height="106dp"
-                android:layout_weight="0.42" >
+                android:layout_weight="0.42">
             </ExpandableListView>
 
             <Button
@@ -40,31 +40,32 @@
                 android:layout_width="281dp"
                 android:layout_height="match_parent"
                 android:layout_marginTop="57dp"
-                android:background="@drawable/boton"
                 android:gravity="center"
                 android:shadowColor="@color/rojo"
                 android:shadowRadius="25"
                 android:text="@string/registro_recuperacion"
-                android:textColor="@color/blanco" />
+                android:textColor="@color/blanco"
+                android:background="@drawable/buttonew1" />
 
             <Button
                 android:id="@+id/cmd_crear_recup_main"
                 android:layout_width="286dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:background="@drawable/boton"
+                android:background="@drawable/buttonew1"
                 android:gravity="center"
                 android:shadowColor="@color/rojo"
                 android:shadowRadius="25"
                 android:text="Perfiles"
-                android:textColor="@color/blanco" />
+                android:textColor="@color/blanco"
+                style="@android:style/Animation" />
 
             <Button
                 android:id="@+id/cmd_clientes"
                 android:layout_width="277dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
-                android:background="@drawable/boton"
+                android:background="@drawable/buttonew1"
                 android:gravity="center"
                 android:shadowColor="@color/rojo"
                 android:shadowRadius="25"
@@ -76,7 +77,7 @@
                 android:layout_width="286dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:background="@drawable/boton"
+                android:background="@drawable/buttonew1"
                 android:gravity="center"
                 android:shadowColor="@color/rojo"
                 android:shadowRadius="25"

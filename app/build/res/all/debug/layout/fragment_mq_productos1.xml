@@ -18,7 +18,8 @@
         android:text="seleccion texto"
         android:gravity="center"
         android:layout_alignBottom="@+id/imageView4"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        style="@android:style/TextAppearance.Medium" />
 
     <ImageView
         android:layout_width="wrap_content"

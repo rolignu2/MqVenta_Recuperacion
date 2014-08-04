@@ -29,16 +29,17 @@ public final class R {
     public static final class drawable {
         public static final int addcon32=0x7f020000;
         public static final int boton=0x7f020001;
-        public static final int contactcard16=0x7f020002;
-        public static final int contactcard24=0x7f020003;
-        public static final int contactcard32=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int pagado=0x7f020006;
-        public static final int pagoexpirado=0x7f020007;
-        public static final int pendiente=0x7f020008;
-        public static final int shopping16=0x7f020009;
-        public static final int shopping24=0x7f02000a;
-        public static final int shopping32=0x7f02000b;
+        public static final int buttonew1=0x7f020002;
+        public static final int contactcard16=0x7f020003;
+        public static final int contactcard24=0x7f020004;
+        public static final int contactcard32=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int pagado=0x7f020007;
+        public static final int pagoexpirado=0x7f020008;
+        public static final int pendiente=0x7f020009;
+        public static final int shopping16=0x7f02000a;
+        public static final int shopping24=0x7f02000b;
+        public static final int shopping32=0x7f02000c;
     }
     public static final class id {
         public static final int FrmPrincipal=0x7f0b001d;
@@ -46,7 +47,7 @@ public final class R {
         public static final int ListaClientes_Cliente=0x7f0b0014;
         public static final int Menu_lista_expandible=0x7f0b001f;
         public static final int TxtRecuperacion_Buscador=0x7f0b001c;
-        public static final int action_settings=0x7f0b002e;
+        public static final int action_settings=0x7f0b0032;
         public static final int barra_progreso_recuperacion=0x7f0b001a;
         public static final int cmd_clientes=0x7f0b0022;
         public static final int cmd_crear_recup_main=0x7f0b0021;
@@ -54,21 +55,25 @@ public final class R {
         public static final int cmd_recuperacion=0x7f0b0020;
         public static final int cmd_registrar_cliente=0x7f0b0012;
         public static final int container=0x7f0b0000;
+        public static final int editText=0x7f0b002b;
+        public static final int editText2=0x7f0b002c;
         public static final int frameLayout1=0x7f0b0019;
         public static final int imageView=0x7f0b0027;
         public static final int imageView2=0x7f0b0028;
-        public static final int imageView3=0x7f0b002b;
-        public static final int imageView4=0x7f0b002a;
+        public static final int imageView3=0x7f0b002f;
+        public static final int imageView4=0x7f0b002e;
         public static final int imageView_imagen=0x7f0b0016;
-        public static final int lblListHeader=0x7f0b002c;
-        public static final int lblListItem=0x7f0b002d;
+        public static final int lblListHeader=0x7f0b0030;
+        public static final int lblListItem=0x7f0b0031;
         public static final int lbltitulo=0x7f0b001e;
         public static final int lineal=0x7f0b0024;
         public static final int pager=0x7f0b0018;
+        public static final int scrollView=0x7f0b0029;
         public static final int scrollView1=0x7f0b0001;
         public static final int section_label=0x7f0b0025;
         public static final int tab1=0x7f0b0002;
         public static final int tab2=0x7f0b0013;
+        public static final int textView=0x7f0b002a;
         public static final int textView1=0x7f0b0003;
         public static final int textView2=0x7f0b0004;
         public static final int textView3=0x7f0b0006;
@@ -85,7 +90,7 @@ public final class R {
         public static final int txtelefono_clientes=0x7f0b000d;
         public static final int txtgiro_clientes=0x7f0b000f;
         public static final int txtnext_productos=0x7f0b0026;
-        public static final int txtnext_productos_info=0x7f0b0029;
+        public static final int txtnext_productos_info=0x7f0b002d;
         public static final int txtnit_clientes=0x7f0b000b;
         public static final int txtnombre_clientes=0x7f0b0005;
     }
