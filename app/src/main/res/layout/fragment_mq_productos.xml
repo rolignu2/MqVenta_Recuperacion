@@ -55,16 +55,16 @@
             android:layout_marginTop="65dp"
             android:gravity="center"
             android:layout_alignParentTop="true"
-            android:layout_alignLeft="@+id/editText"
-            android:layout_alignStart="@+id/editText" />
+            android:layout_alignLeft="@+id/prod_txt_nombre"
+            android:layout_alignStart="@+id/prod_txt_nombre" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
+            android:inputType="text|textPersonName"
             android:text=""
             android:ems="10"
-            android:id="@+id/editText"
+            android:id="@+id/prod_txt_nombre"
             android:gravity="center"
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true" />
@@ -77,9 +77,9 @@
             android:id="@+id/textView2"
             android:layout_marginTop="24dp"
             android:gravity="center"
-            android:layout_below="@+id/editText"
-            android:layout_alignLeft="@+id/editText2"
-            android:layout_alignStart="@+id/editText2" />
+            android:layout_below="@+id/prod_txt_nombre"
+            android:layout_alignLeft="@+id/prod_txt_envase"
+            android:layout_alignStart="@+id/prod_txt_envase" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -87,11 +87,11 @@
             android:inputType="textPersonName"
             android:text=""
             android:ems="10"
-            android:id="@+id/editText2"
+            android:id="@+id/prod_txt_envase"
             android:gravity="center"
             android:layout_below="@+id/textView2"
-            android:layout_alignLeft="@+id/editText"
-            android:layout_alignStart="@+id/editText" />
+            android:layout_alignLeft="@+id/prod_txt_nombre"
+            android:layout_alignStart="@+id/prod_txt_nombre" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -100,19 +100,96 @@
             android:text="Cantidad de Producto"
             android:id="@+id/textView3"
             android:gravity="center"
-            android:layout_above="@+id/editText3"
-            android:layout_alignLeft="@+id/editText2"
-            android:layout_alignStart="@+id/editText2" />
+            android:layout_above="@+id/prod_txt_cantidad"
+            android:layout_alignLeft="@+id/prod_txt_envase"
+            android:layout_alignStart="@+id/prod_txt_envase" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
-            android:id="@+id/editText3"
+            android:id="@+id/prod_txt_cantidad"
             android:layout_centerVertical="true"
             android:layout_alignLeft="@+id/textView3"
             android:layout_alignStart="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Precio (sin iva)"
+            android:id="@+id/textView4"
+            android:gravity="center"
+            android:layout_below="@+id/prod_txt_cantidad"
+            android:layout_alignLeft="@+id/prod_txt_cantidad"
+            android:layout_alignStart="@+id/prod_txt_cantidad"
+            android:layout_marginTop="23dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/prod_txt_precio"
+            android:layout_below="@+id/textView4"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio con IVA "
+            android:id="@+id/textView5"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/prod_txt_precio"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/prod_txt_precioIva"
+            android:layout_below="@+id/textView5"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_alignEnd="@+id/textView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:id="@+id/textView6"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_toRightOf="@+id/prod_txt_precioIva"
+            android:layout_alignRight="@+id/prod_txt_precio"
+            android:layout_alignEnd="@+id/prod_txt_precio"
+            android:gravity="right" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/prod_txt_total"
+            android:layout_alignTop="@+id/prod_txt_precioIva"
+            android:layout_toRightOf="@+id/textView2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/prod_cmd_guardar"
+            android:background="@drawable/buttonew1"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:clickable="true"
+            android:textSize="20dp"
+            android:text="Guardar" />
 
     </RelativeLayout>
 
