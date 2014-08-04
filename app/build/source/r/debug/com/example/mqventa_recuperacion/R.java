@@ -46,7 +46,7 @@ public final class R {
         public static final int ListaClientes_Cliente=0x7f0b0014;
         public static final int Menu_lista_expandible=0x7f0b001f;
         public static final int TxtRecuperacion_Buscador=0x7f0b001c;
-        public static final int action_settings=0x7f0b002b;
+        public static final int action_settings=0x7f0b002e;
         public static final int barra_progreso_recuperacion=0x7f0b001a;
         public static final int cmd_clientes=0x7f0b0022;
         public static final int cmd_crear_recup_main=0x7f0b0021;
@@ -57,9 +57,11 @@ public final class R {
         public static final int frameLayout1=0x7f0b0019;
         public static final int imageView=0x7f0b0027;
         public static final int imageView2=0x7f0b0028;
+        public static final int imageView3=0x7f0b002b;
+        public static final int imageView4=0x7f0b002a;
         public static final int imageView_imagen=0x7f0b0016;
-        public static final int lblListHeader=0x7f0b0029;
-        public static final int lblListItem=0x7f0b002a;
+        public static final int lblListHeader=0x7f0b002c;
+        public static final int lblListItem=0x7f0b002d;
         public static final int lbltitulo=0x7f0b001e;
         public static final int lineal=0x7f0b0024;
         public static final int pager=0x7f0b0018;
@@ -83,6 +85,7 @@ public final class R {
         public static final int txtelefono_clientes=0x7f0b000d;
         public static final int txtgiro_clientes=0x7f0b000f;
         public static final int txtnext_productos=0x7f0b0026;
+        public static final int txtnext_productos_info=0x7f0b0029;
         public static final int txtnit_clientes=0x7f0b000b;
         public static final int txtnombre_clientes=0x7f0b0005;
     }
@@ -96,8 +99,9 @@ public final class R {
         public static final int activity_mq_ver_cliente_recuperacion=0x7f030006;
         public static final int fragment_crecuperacion__mq_dummy=0x7f030007;
         public static final int fragment_mq_productos=0x7f030008;
-        public static final int list_group=0x7f030009;
-        public static final int list_item=0x7f03000a;
+        public static final int fragment_mq_productos1=0x7f030009;
+        public static final int list_group=0x7f03000a;
+        public static final int list_item=0x7f03000b;
     }
     public static final class menu {
         public static final int crecuperacion__mq=0x7f0a0000;

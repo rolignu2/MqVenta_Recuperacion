@@ -209,9 +209,9 @@
                 </string>
                 <string name="title_activity_mq_ver_cliente_recuperacion" >MqVerClienteRecuperacion
                 </string>
-                <string name="hello_world" >Hello world!
-                </string>
                 <string name="title_activity_mq_clientes" >MqClientes
+                </string>
+                <string name="hello_world" >Hello world!
                 </string>
             </file>
             <file
@@ -282,13 +282,11 @@ Never
                 </string>
                 <string name="pref_title_vibrate" >Vibrate
                 </string>
-                <string name="pref_title_ringtone" >Ringtone
-                </string>
                 <string name="title_activity_crear_recuperacion_mq_recuperacion" >Crear una recuperacion
                 </string>
-                <string name="pref_title_social_recommendations" >Enable social recommendations
+                <string name="pref_title_ringtone" >Ringtone
                 </string>
-                <string name="pref_header_notifications" >Notifications
+                <string name="pref_title_social_recommendations" >Enable social recommendations
                 </string>
 
                 <string-array name="pref_sync_frequency_titles" >
@@ -312,6 +310,8 @@ Never
                     </item>
                 </string-array>
 
+                <string name="pref_header_notifications" >Notifications
+                </string>
                 <string name="pref_title_system_sync_settings" >System sync settings
                 </string>
                 <string name="pref_header_data_sync" >Data &amp; sync
@@ -401,6 +401,11 @@ Never
             <file
                 name="fragment_mq_productos"
                 path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_mq_productos.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_mq_productos1"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_mq_productos1.xml"
                 qualifiers=""
                 type="layout" />
         </source>

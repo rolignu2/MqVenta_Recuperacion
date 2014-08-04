@@ -144,31 +144,35 @@ public class MqProductos extends Activity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_mq_productos, container, false);
 
             //arguamento en el cual verifica el numero de la seccion
             int arg = getArguments().getInt(ARG_SECTION_NUMBER);
-            //cambia los datos o parametros de acuerdo a la pocision del placeholder
-            this.ChangePlace(arg, rootView);
-
-
-            return rootView;
+            //cambia los datos o parametros de acuerdo a la positions del placeholder
+            //ademas con el View podremos cambiar el layout a utilizar en este caso cada placeholder cambiara el tipo de layout
+            return this.ChangePlace(arg , container, inflater);
         }
 
 
-        public void ChangePlace(int seccion , View rootView)
+        public View ChangePlace(int seccion ,ViewGroup container , LayoutInflater inflater)
         {
+            View rootView;
+            rootView = inflater.inflate(R.layout.fragment_mq_productos, container, false);
             switch(seccion)
             {
                 case 1:
+                    rootView = inflater.inflate(R.layout.fragment_mq_productos, container, false);
                     this.GetAddProd(rootView);
                     break;
                 case 2:
+                    rootView = inflater.inflate(R.layout.fragment_mq_productos1, container, false);
+                    this.GetViewProd(rootView);
                     break;
                 default:
                     break;
 
             }
+
+            return rootView;
         }
 
         /**
@@ -180,6 +184,13 @@ public class MqProductos extends Activity {
             TextView textView = (TextView) rootView.findViewById(R.id.txtnext_productos);
             textView.setText("AGREGA UN NUEVO PRODUCTO");
 
+
+        }
+
+        private void GetViewProd(View rootView)
+        {
+            TextView textView = (TextView) rootView.findViewById(R.id.txtnext_productos_info);
+            textView.setText("INFORMACION PRODUCTOS");
         }
 
 
