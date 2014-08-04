@@ -16,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MqProductos extends Activity {
@@ -49,6 +50,7 @@ public class MqProductos extends Activity {
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.pager);
         mViewPager.setAdapter(mSectionsPagerAdapter);
+
 
     }
 
@@ -138,14 +140,49 @@ public class MqProductos extends Activity {
         public PlaceholderFragment() {
         }
 
+
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_mq_productos, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
+
+            //arguamento en el cual verifica el numero de la seccion
+            int arg = getArguments().getInt(ARG_SECTION_NUMBER);
+            //cambia los datos o parametros de acuerdo a la pocision del placeholder
+            this.ChangePlace(arg, rootView);
+
+
             return rootView;
         }
+
+
+        public void ChangePlace(int seccion , View rootView)
+        {
+            switch(seccion)
+            {
+                case 1:
+                    this.GetAddProd(rootView);
+                    break;
+                case 2:
+                    break;
+                default:
+                    break;
+
+            }
+        }
+
+        /**
+         * se creara el menu en el cual obtendremos el registro de un producto
+         * se agregaran los controles en el view
+         * */
+        private void GetAddProd(View rootView)
+        {
+            TextView textView = (TextView) rootView.findViewById(R.id.txtnext_productos);
+            textView.setText("AGREGA UN NUEVO PRODUCTO");
+
+        }
+
+
     }
 
 }

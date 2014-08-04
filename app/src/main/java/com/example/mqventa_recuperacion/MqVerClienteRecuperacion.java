@@ -44,7 +44,7 @@ public class MqVerClienteRecuperacion extends Activity {
 		return true;
 	}
 	
-	/*importante aca se coloca toda configuracion de las pestañas o tabs */
+	/*importante aca se coloca toda configuracion de las pestanas o tabs */
 	private void ConfiguracionTab()
 	{
 		Resources res = super.getResources();
