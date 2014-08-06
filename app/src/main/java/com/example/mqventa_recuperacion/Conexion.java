@@ -68,17 +68,8 @@ public class Conexion {
         ResultSet rs = this.consulta.executeQuery (sql);
         return rs;
     }
-    
-    public boolean Get_Consulta_boleana(String sql) throws SQLException
-    {
-        this.consulta = (Statement) this.conexion.createStatement();
-        ResultSet Est = this.consulta.executeQuery(sql);
-        int cont =0;
-        while(Est.next())
-            cont++;
-        return cont >=1;
-    }
-    
+
+
     public int Get_consulta_count(String sql) throws SQLException
     {
         this.consulta = (Statement) this.conexion.createStatement();
