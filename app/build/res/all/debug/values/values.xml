@@ -80,6 +80,7 @@
     <eat-comment />
 
     <string name="title_activity_crecuperacion__mq">CRecuperacion_MQ</string>
+    <string name="title_activity_menu_prod_popup">menu_prod_popup</string>
     <string name="title_activity_mq_clientes">MqClientes</string>
     <string name="title_activity_mq_entrada__recuperacion">MqEntrada_Recuperacion</string>
     <string name="title_activity_mq_productos">"MQ Manejo de Productos "</string>
@@ -101,6 +102,24 @@
 
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="dm" parent="@style/android:Theme.Light">
+        <item name="android:popupMenuStyle">@style/menu</item>
+        <item name="android:dropDownListViewStyle">@style/dropDownListView.dm</item>
+        <item name="android:itemTextAppearance">@style/itemTextStyle.dm</item>
+    </style>
+
+    <style name="dropDownListView.dm" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/menu_selector</item>
+    </style>
+
+    <style name="itemTextStyle.dm" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@drawable/menu_item_color</item>
+    </style>
+
+    <style name="menu" parent="android:Widget.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu</item>
     </style>
 
 </resources>

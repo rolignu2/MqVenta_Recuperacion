@@ -17,5 +17,6 @@
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
     <string name="title_activity_mq_productos">"MQ Manejo de Productos "</string>
+    <string name="title_activity_menu_prod_popup">menu_prod_popup</string>
 
 </resources>

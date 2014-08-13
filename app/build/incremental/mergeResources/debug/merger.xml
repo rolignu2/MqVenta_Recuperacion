@@ -14,6 +14,11 @@
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="buttonew1"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\buttonew1.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="contactcard16"
                 path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\contactcard16.png"
                 qualifiers="hdpi"
@@ -31,6 +36,11 @@
             <file
                 name="ic_launcher"
                 path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="otros"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\otros.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
@@ -94,6 +104,11 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="activity_mq_productos"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\activity_mq_productos.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="activity_mq_recuperacion"
                 path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\activity_mq_recuperacion.xml"
                 qualifiers=""
@@ -111,6 +126,21 @@
             <file
                 name="fragment_crecuperacion__mq_dummy"
                 path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_crecuperacion__mq_dummy.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_mq_productos"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_mq_productos.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_mq_productos1"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_mq_productos1.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="grid_image"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\grid_image.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -212,6 +242,8 @@
                 <string name="hello_world" >Hello world!
                 </string>
                 <string name="title_activity_mq_clientes" >MqClientes
+                </string>
+                <string name="title_activity_menu_prod_popup" >menu_prod_popup
                 </string>
             </file>
             <file
@@ -322,6 +354,22 @@ Never
                 qualifiers="" >
 
                 <style
+                    name="dropDownListView.dm"
+                    parent="@android:style/Widget.Holo.Light.ListView.DropDown" >
+                    <item name="android:listSelector">
+@drawable/menu_selector
+                    </item>
+                </style>
+
+                <style
+                    name="itemTextStyle.dm"
+                    parent="@android:style/TextAppearance.Widget.IconMenu.Item" >
+                    <item name="android:textColor">
+@drawable/menu_item_color
+                    </item>
+                </style>
+
+                <style
                     name="AppBaseTheme"
                     parent="android:Theme.Light" >
 
@@ -330,6 +378,28 @@ Never
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
                     -->
+                </style>
+
+                <style
+                    name="menu"
+                    parent="android:Widget.ListPopupWindow" >
+                    <item name="android:popupBackground">
+@drawable/menu
+                    </item>
+                </style>
+
+                <style
+                    name="dm"
+                    parent="@style/android:Theme.Light" >
+                    <item name="android:popupMenuStyle">
+@style/menu
+                    </item>
+                    <item name="android:dropDownListViewStyle">
+@style/dropDownListView.dm
+                    </item>
+                    <item name="android:itemTextAppearance">
+@style/itemTextStyle.dm
+                    </item>
                 </style>
 
                 <style
@@ -394,25 +464,80 @@ Never
                 qualifiers=""
                 type="xml" />
             <file
-                name="activity_mq_productos"
-                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\activity_mq_productos.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_mq_productos"
-                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_mq_productos.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="fragment_mq_productos1"
-                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_mq_productos1.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="buttonew1"
-                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\buttonew1.png"
+                name="polvo"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\polvo.png"
                 qualifiers="hdpi"
                 type="drawable" />
+            <file
+                name="liquido"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\liquido.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="solido"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\solido.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="background"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\background.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="blackbackground"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\blackbackground.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="redbackground"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\redbackground.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="activity_menu_prod_popup"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\activity_menu_prod_popup.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_menu_prod_popup"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_menu_prod_popup.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="menu_prod_popup"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\menu\menu_prod_popup.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="menu_focused"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\menu_focused.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="menu_selector"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\menu_selector.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="menu_item_color"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\menu_item_color.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="menu_pressed"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\menu_pressed.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="menu"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\menu.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="menu_prod"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\menu\menu_prod.xml"
+                qualifiers=""
+                type="menu" />
         </source>
         <source path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\build\res\rs\debug" />
     </dataSet>

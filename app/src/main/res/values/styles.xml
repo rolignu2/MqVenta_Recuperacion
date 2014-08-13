@@ -1,4 +1,5 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -16,5 +17,28 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+
+
+    <style name="dm" parent="@style/android:Theme.Light">
+        <item name="android:popupMenuStyle">@style/menu</item>
+        <item name="android:dropDownListViewStyle">@style/dropDownListView.dm</item>
+        <item name="android:itemTextAppearance">@style/itemTextStyle.dm</item>
+    </style>
+
+    <!-- default background -->
+    <style name="menu" parent="android:Widget.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu</item>
+    </style>
+
+    <!-- selector for pressed/focused states -->
+    <style name="dropDownListView.dm" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/menu_selector</item>
+    </style>
+
+    <!-- font color -->
+    <style name="itemTextStyle.dm" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@drawable/menu_item_color</item>
+    </style>
+
 
 </resources>

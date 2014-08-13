@@ -8,6 +8,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
+import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.StrictMode;
@@ -29,17 +30,29 @@ public class MqVentaMain extends Activity {
 	private Button cmd_productos;
 	private Button cmd_crearRecuperacion;
 
-	
+
+    //variables para la lista desplegable
 	private ExpandableListAdapter listAdapter;
 	private ExpandableListView expListView;
 	private List<String> listDataHeader;
 	private HashMap<String, List<String>> listDataChild;
+    private List<String>ClienteMora = new ArrayList<String>();
+    private List<String>ClienteProximo = new ArrayList<String>();
+    private int mora_count =0;
+    private int prox_count=0;
+    //fin variables
+
+    //titulo
 	private String Titulo = "Venta y Recuperacion Version Movil";
-	
-	private Context contexto = this;
+
+    //process dialog
+    private ProgressDialog pDialog;
+    private  ProgressBar pbar;
+
+    private Context contexto = this;
 	private Handler delegado = new Handler();
 	private Conexion conn;
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -61,69 +74,94 @@ public class MqVentaMain extends Activity {
 	
 	public void Inizializar()
 	{
+         pDialog = new ProgressDialog(this);
+         pDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+         pDialog.setMessage("Cargando MQ y asociados");
+         pDialog.setCancelable(true);
+         pDialog.setMax(100);
+         pDialog.show();
+
 		 this.LblTitulo = (TextView) super.findViewById(R.id.lbltitulo);
 		 this.LblTitulo.setText("Cargando Noticias ...");
 		 this.expListView = (ExpandableListView) findViewById(R.id.Menu_lista_expandible);
 		 this.FrmPrincipal = (RelativeLayout)super.findViewById(R.id.FrmPrincipal);
-		 Thread hilo = new Thread()
-		 {
-			 public void run()
-			 {
-				 delegado.post(PrepararLista);
-			 }
-		 };
-		 hilo.start();
-		 //eventos para botones 
-		 this.Eventos_Click();
+         this.Eventos_Click();
+
+		  new Thread(new Runnable() {
+             @Override
+             public void run() {
+                 try {
+                     Thread.sleep(1000);
+                 } catch (InterruptedException e) {
+                     e.printStackTrace();
+                 }
+                 LoadMysqlData();
+                 delegado.post(PrepararLista);
+             }
+
+         }).start();
+
 	}
+
+
+    private void LoadMysqlData()
+    {
+        try {
+
+            ClienteMora = new ArrayList<String>();
+            ClienteProximo = new ArrayList<String>();
+            mora_count =0;
+            prox_count=0;
+
+            conn = new Conexion();
+            conn.AbrirConexion();
+            String sql ="Select clientes.id_cliente as id , clientes.nombres as nombre , " +
+                    "clientes.apellidos as apellido , " +
+                    "control.fecha_pago as fecha FROM clientes INNER JOIN control" +
+                    " ON clientes.id_cliente=control.id_cliente";
+            ResultSet rs = conn.Get_Consulta(sql);
+            Calendar c = Calendar.getInstance();
+            Date fecha1 =c.getTime();
+            while(rs.next())
+            {
+                Date fecha2 = rs.getDate("fecha");
+                int dias = id.diferenciaEnDias(fecha1, fecha2);
+                String cliente = rs.getString("nombre" ) + " " + rs.getString("apellido");
+                if(dias>=0){
+                    ClienteMora.add(cliente);
+                    mora_count++;
+                }
+                else if(dias<=-5){
+                    ClienteProximo.add(cliente);
+                    prox_count++;
+                }
+
+            }
+            conn.CerrarConexion();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
 
     /*prepara la lista de datos a mostrar
     *
     * */
-	private Runnable PrepararLista = new Runnable() {
-		
+
+    private Runnable PrepararLista = new Runnable() {
+
+        @Override
 		public void run(){
-			List<String>ClienteMora = new ArrayList<String>();
-			List<String>ClienteProximo = new ArrayList<String>();
-			int mora_count =0;
-			int prox_count=0;
-			try {
-				conn = new Conexion();
-				conn.AbrirConexion();
-				String sql ="Select clientes.id_cliente as id , clientes.nombres as nombre , " +
-						"clientes.apellidos as apellido , " +
-						"control.fecha_pago as fecha FROM clientes INNER JOIN control" +
-						" ON clientes.id_cliente=control.id_cliente";
-				ResultSet rs = conn.Get_Consulta(sql);
-				Calendar c = Calendar.getInstance();
-				Date fecha1 =c.getTime();
-				while(rs.next())
-				{
-					Date fecha2 = rs.getDate("fecha");
-					int dias = id.diferenciaEnDias(fecha1, fecha2);
-					String cliente = rs.getString("nombre" ) + " " + rs.getString("apellido");
-					if(dias>=0){
-						ClienteMora.add(cliente);
-						mora_count++;
-					}
-					else if(dias<=-5){
-						ClienteProximo.add(cliente);
-						prox_count++;
-					}
-					
-				}
-				conn.CerrarConexion();
-			} catch (ClassNotFoundException e) {
-				e.printStackTrace();
-			} catch (InstantiationException e) {
-				e.printStackTrace();
-			} catch (IllegalAccessException e) {
-				e.printStackTrace();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
-			
+
+
+            /**      DATA              **/
+
 			listDataHeader = new ArrayList<String>();
 			listDataChild = new HashMap<String, List<String>>();
  
@@ -163,6 +201,9 @@ public class MqVentaMain extends Activity {
 			listAdapter = new ExpandableListAdapter(contexto, listDataHeader, listDataChild);
 			expListView.setAdapter(listAdapter);
 			LblTitulo.setText(Titulo);
+            pDialog.setProgress(100);
+            pDialog.cancel();
+
 		}
     };
 

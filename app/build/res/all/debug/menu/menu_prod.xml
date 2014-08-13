@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <item
+        android:id="@+id/menu_opt1"
+        android:title="Ver"
+        />
+    <item
+        android:id="@+id/menu_opt2"
+        android:title="Editar"/>
+    <item
+        android:id="@+id/menu_opt3"
+        android:title="Eliminar"/>
+    <item
+        android:id="@+id/menu_opt4"
+        android:title="Cerrar"/>
+</menu>
+
+<!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/menu/menu_prod.xml -->

@@ -9,6 +9,14 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/grid_image.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/dm</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59f38dc8-54e6-4b5f-aac9-9ea7bb89144d" name="Default" comment="" />
@@ -79,40 +87,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_mq_ver_cliente_recuperacion.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_ver_cliente_recuperacion.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditText.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/widget/EditText.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MqProductos.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqProductos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="262" column="30" selection-start="9312" selection-end="9312" vertical-scroll-proportion="0.2939481" vertical-offset="3621" max-vertical-offset="4794">
+            <state line="591" column="0" selection-start="22461" selection-end="22461" vertical-scroll-proportion="2.275216" vertical-offset="8468" max-vertical-offset="10523">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4458#4492#0" expanded="true" />
+                <element signature="e#4560#4594#0" expanded="true" />
+                <element signature="e#4662#4696#0" expanded="true" />
+                <element signature="e#5663#5671#0" expanded="true" />
+                <element signature="e#6024#6032#0" expanded="true" />
+                <element signature="e#10384#10815#0" expanded="true" />
+                <element signature="e#10553#10772#0" expanded="true" />
+                <element signature="e#10748#10749#0" expanded="true" />
+                <element signature="e#10799#10800#0" expanded="true" />
+                <element signature="e#10859#11378#0" expanded="true" />
+                <element signature="e#11363#11364#0" expanded="true" />
+                <element signature="e#11433#11730#0" expanded="true" />
+                <element signature="e#11715#11716#0" expanded="true" />
+                <element signature="e#11784#12272#0" expanded="true" />
+                <element signature="e#12258#12259#0" expanded="true" />
+                <element signature="e#12515#14686#0" expanded="true" />
+                <element signature="e#14671#14672#0" expanded="true" />
+                <element signature="e#15231#15981#0" expanded="true" />
+                <element signature="e#15966#15967#0" expanded="true" />
+                <element signature="e#16222#18809#0" expanded="true" />
+                <element signature="e#16584#18739#0" expanded="true" />
+                <element signature="e#16725#17026#0" expanded="true" />
+                <element signature="e#16995#16996#0" expanded="true" />
+                <element signature="e#17135#17357#0" expanded="true" />
+                <element signature="e#17322#17323#0" expanded="true" />
+                <element signature="e#17763#18106#0" expanded="true" />
+                <element signature="e#18067#18068#0" expanded="true" />
+                <element signature="e#18715#18716#0" expanded="true" />
+                <element signature="e#18794#18795#0" expanded="true" />
+                <element signature="e#19604#19803#0" expanded="true" />
+                <element signature="e#19788#19789#0" expanded="true" />
+                <element signature="e#19924#20329#0" expanded="true" />
+                <element signature="e#20314#20315#0" expanded="true" />
+                <element signature="e#22601#22930#0" expanded="true" />
+                <element signature="e#22919#22920#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MqGrid.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqGrid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="36" selection-start="1181" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MqRecuperacion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqRecuperacion.java">
+      <file leaf-file-name="menu_prod.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_prod.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="32" selection-start="5483" selection-end="5483" vertical-scroll-proportion="0.0" vertical-offset="2873" max-vertical-offset="4624">
+            <state line="18" column="7" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid_image.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/grid_image.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="39" selection-start="701" selection-end="701" vertical-scroll-proportion="-14.28" vertical-offset="0" max-vertical-offset="476">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Colores.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/Colores.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -121,52 +175,52 @@
       <file leaf-file-name="CRecuperacion_MQ.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/CRecuperacion_MQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="7" selection-start="2936" selection-end="2936" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2006">
+            <state line="86" column="7" selection-start="2936" selection-end="2936" vertical-scroll-proportion="0.0" vertical-offset="1091" max-vertical-offset="1785">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MqEntrada_Recuperacion.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqEntrada_Recuperacion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
+      <file leaf-file-name="activity_mq_entrada__recuperacion.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_entrada__recuperacion.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpannableStringBuilder.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/text/SpannableStringBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="28" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1326">
+      <file leaf-file-name="activity_mq_productos.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_productos.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextView.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/widget/TextView.class">
+      <file leaf-file-name="mq_productos.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/mq_productos.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="289" column="34" selection-start="11859" selection-end="11859" vertical-scroll-proportion="0.0" vertical-offset="4913" max-vertical-offset="8993">
+            <state line="2" column="35" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Clientes.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Clientes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="13" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2703">
-              <folding />
-            </state>
+      <file leaf-file-name="activity_mq_clientes.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_clientes.xml">
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Productos.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Productos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="612">
+            <state line="19" column="17" selection-start="801" selection-end="801" vertical-scroll-proportion="-7.48" vertical-offset="136" max-vertical-offset="3349">
               <folding />
             </state>
           </provider>
@@ -547,17 +601,25 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Clientes.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/layout/activity_mq_venta_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/id.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Lista_adaptador.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqClientes.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqVentaMain.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqVerClienteRecuperacion.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mq_productos1.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mq_venta_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mq_productos.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqGrid.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Conexion.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_group.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mq_productos.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mq_productos1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqVentaMain.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/menu_prod.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/menu_item_color.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mq_venta_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqClientes.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mq_clientes.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Productos.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/grid_image.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqProductos.java" />
       </list>
     </option>
@@ -597,17 +659,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -687,160 +738,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values-w820dp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values-v14" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values-v11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values-sw720dp-land" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values-sw600dp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -899,32 +796,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MqVenta_Recuperacion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1044,8 +915,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MqVenta_Recuperacion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MqVenta_Recuperacion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MqVenta_Recuperacion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1067,10 +967,18 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="449" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\menu" />
+      <recent name="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi" />
+      <recent name="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\java\drawable-hdpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -1228,6 +1136,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -1274,34 +1187,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4513889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33055556" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2567394" sideWeight="0.5010309" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27150193" sideWeight="0.10138889" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33055556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27278563" sideWeight="0.4969072" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27150193" sideWeight="0.8986111" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1354,174 +1267,320 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Lista_adaptador.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_crecuperacion__mq.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crecuperacion__mq_dummy.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/java/lang/Runnable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1139">
+        <state line="8" column="1" selection-start="184" selection-end="184" vertical-scroll-proportion="0.17146975" vertical-offset="0" max-vertical-offset="694" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/widget/TextView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="289" column="34" selection-start="11859" selection-end="11859" vertical-scroll-proportion="0.0" vertical-offset="4765" max-vertical-offset="8976" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/widget/EditText.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/text/SpannableStringBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="28" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.0" vertical-offset="821" max-vertical-offset="1309" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/mq_entrada__recuperacion.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/java/lang/AbstractStringBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="16" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.37192118" vertical-offset="495" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/java/lang/StringBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="303" selection-end="303" vertical-scroll-proportion="0.259542" vertical-offset="0" max-vertical-offset="1377" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/java/sql/ResultSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="155" selection-end="155" vertical-scroll-proportion="0.2093596" vertical-offset="0" max-vertical-offset="7004" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/java/lang/reflect/Array.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="166" selection-end="166" vertical-scroll-proportion="0.21628499" vertical-offset="0" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/ExpandableListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="1" selection-start="3087" selection-end="3087" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="10" selection-start="603" selection-end="603" vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_ver_cliente_recuperacion.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Conexion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="56" selection-start="1958" selection-end="1958" vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mq_productos.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="218" column="12" selection-start="9619" selection-end="9619" vertical-scroll-proportion="0.0" vertical-offset="3441" max-vertical-offset="4097">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mq_productos1.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="42" selection-start="2077" selection-end="2077" vertical-scroll-proportion="-11.84" vertical-offset="605" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_menu_prod_popup.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="655" selection-end="655" vertical-scroll-proportion="-8.84" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="506" column="19" selection-start="24904" selection-end="24904" vertical-scroll-proportion="0.0" vertical-offset="8454" max-vertical-offset="20196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_group.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="37" selection-start="552" selection-end="552" vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/widget/AdapterView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="19" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.3426396" vertical-offset="222" max-vertical-offset="2193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqEntrada_Recuperacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="5" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqRecuperacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="0" selection-start="7245" selection-end="7245" vertical-scroll-proportion="0.0" vertical-offset="1176" max-vertical-offset="3349">
+          <folding>
+            <element signature="e#2260#2349#0" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
+            <element signature="class#5204:6947" expanded="false" />
+            <element signature="e#5265#5292#0" expanded="true" />
+            <element signature="e#7273#8436#0" expanded="true" />
+            <element signature="e#8432#8433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqVentaMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="2356" selection-end="2356" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="4114">
+          <folding>
+            <element signature="e#1076#1084#0" expanded="true" />
+            <element signature="e#1142#1150#0" expanded="true" />
+            <element signature="e#2686#3043#0" expanded="true" />
+            <element signature="e#3030#3031#0" expanded="true" />
+            <element signature="e#4759#6118#0" expanded="true" />
+            <element signature="e#6111#6112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/menu_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="8" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/menu_item_color.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v14/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="23" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_recuperacion.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1071">
+          <folding>
+            <element signature="e#494#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu_prod_popup.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_venta_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Clientes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="13" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqVerClienteRecuperacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="54" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqClientes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2471" selection-end="2471" vertical-scroll-proportion="0.0" vertical-offset="1343" max-vertical-offset="4828">
+        <state line="90" column="15" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.0" vertical-offset="1174" max-vertical-offset="4641">
           <folding>
-            <element signature="e#4408#4517#0" expanded="false" />
-            <element signature="e#4508#4509#0" expanded="false" />
-            <element signature="e#5074#6510#0" expanded="false" />
-            <element signature="e#6506#6507#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2339#2418#0" expanded="true" />
+            <element signature="e#2413#2414#0" expanded="true" />
+            <element signature="e#2510#2537#1" expanded="true" />
+            <element signature="e#4409#4518#0" expanded="true" />
+            <element signature="e#4509#4510#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/layout/activity_mq_ver_cliente_recuperacion.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Dialogos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="12" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/layout/activity_mq_entrada__recuperacion.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/layout/activity_mq_venta_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2459" selection-end="2459" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="31" selection-start="574" selection-end="574" vertical-scroll-proportion="0.5216178" vertical-offset="0" max-vertical-offset="1071" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="472" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MqVenta_Recuperacion.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="472" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.232719" vertical-offset="969" max-vertical-offset="1632" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Lista_entrada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+        <state line="25" column="27" selection-start="385" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <folding>
-            <element signature="e#382#383#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#448#449#0" expanded="false" />
-            <element signature="e#478#479#0" expanded="false" />
-            <element signature="e#508#509#0" expanded="false" />
-            <element signature="e#534#535#0" expanded="false" />
+            <element signature="e#485#643#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/java/lang/Object.class">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Productos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="29" selection-start="587" selection-end="587" vertical-scroll-proportion="0.42677826" vertical-offset="0" max-vertical-offset="717" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/menu/mq_clientes.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/layout/activity_mq_clientes.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="3094" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1133" column="31" selection-start="51544" selection-end="51544" vertical-scroll-proportion="2.215909" vertical-offset="17684" max-vertical-offset="20196" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/menu/crecuperacion__mq.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/layout/activity_crecuperacion__mq.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="472" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/layout/activity_mq_venta_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="2459" selection-end="2459" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/layout/activity_mq_entrada__recuperacion.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/layout/activity_mq_ver_cliente_recuperacion.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="12" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/id.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Lista_adaptador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqVentaMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="7" selection-start="6360" selection-end="6360" vertical-scroll-proportion="0.0" vertical-offset="2534" max-vertical-offset="3230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/app/Fragment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="29" selection-start="4404" selection-end="4404" vertical-scroll-proportion="0.33333334" vertical-offset="1620" max-vertical-offset="2975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="15" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1071">
+        <state line="54" column="17" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0" vertical-offset="530" max-vertical-offset="1326">
           <folding>
-            <element signature="e#2197#2234#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqVerClienteRecuperacion.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_prod_popup.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="65" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1343">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/pref_notification.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/crecuperacion__mq.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694">
           <folding />
         </state>
       </provider>
@@ -1533,161 +1592,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_crecuperacion__mq.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mq_productos1.xml">
-      <provider editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crecuperacion__mq_dummy.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_venta_main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="1598">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_recuperacion.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_productos.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_entrada__recuperacion.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_clientes.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3094">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mq_productos.xml">
-      <provider editor-type-id="text-editor">
-        <state line="50" column="4" selection-start="2066" selection-end="2066" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="3587">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Conexion.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/os/Looper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="3" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1921">
+        <state line="26" column="0" selection-start="803" selection-end="803" vertical-scroll-proportion="0.44715446" vertical-offset="260" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqClientes.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/os/Handler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="30" selection-start="7013" selection-end="7013" vertical-scroll-proportion="1.278098" vertical-offset="2598" max-vertical-offset="4318">
-          <folding>
-            <element signature="e#4408#4517#0" expanded="false" />
-            <element signature="e#4508#4509#0" expanded="false" />
-            <element signature="e#5074#6510#0" expanded="false" />
-            <element signature="e#6506#6507#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/java/lang/Runnable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="184" selection-end="184" vertical-scroll-proportion="0.17146975" vertical-offset="0" max-vertical-offset="694" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_ver_cliente_recuperacion.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Clientes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2533">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/Productos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/widget/TextView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="289" column="34" selection-start="11859" selection-end="11859" vertical-scroll-proportion="0.0" vertical-offset="4765" max-vertical-offset="8976">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/widget/EditText.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/text/SpannableStringBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="28" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.0" vertical-offset="821" max-vertical-offset="1309">
+        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.33333334" vertical-offset="149" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
@@ -1699,27 +1613,189 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqEntrada_Recuperacion.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_clientes.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+        <state line="19" column="17" selection-start="801" selection-end="801" vertical-scroll-proportion="-7.48" vertical-offset="136" max-vertical-offset="3349">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqRecuperacion.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_entrada__recuperacion.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mq_productos.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqGrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="32" selection-start="5483" selection-end="5483" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="4165">
+        <state line="51" column="36" selection-start="1181" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_prod.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/grid_image.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="39" selection-start="701" selection-end="701" vertical-scroll-proportion="-14.28" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/Colores.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mqventa_recuperacion/MqProductos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="262" column="30" selection-start="9312" selection-end="9312" vertical-scroll-proportion="0.2939481" vertical-offset="3621" max-vertical-offset="4794">
-          <folding />
+        <state line="591" column="0" selection-start="22461" selection-end="22461" vertical-scroll-proportion="2.275216" vertical-offset="8468" max-vertical-offset="10523">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4458#4492#0" expanded="true" />
+            <element signature="e#4560#4594#0" expanded="true" />
+            <element signature="e#4662#4696#0" expanded="true" />
+            <element signature="e#5663#5671#0" expanded="true" />
+            <element signature="e#6024#6032#0" expanded="true" />
+            <element signature="e#10384#10815#0" expanded="true" />
+            <element signature="e#10553#10772#0" expanded="true" />
+            <element signature="e#10748#10749#0" expanded="true" />
+            <element signature="e#10799#10800#0" expanded="true" />
+            <element signature="e#10859#11378#0" expanded="true" />
+            <element signature="e#11363#11364#0" expanded="true" />
+            <element signature="e#11433#11730#0" expanded="true" />
+            <element signature="e#11715#11716#0" expanded="true" />
+            <element signature="e#11784#12272#0" expanded="true" />
+            <element signature="e#12258#12259#0" expanded="true" />
+            <element signature="e#12515#14686#0" expanded="true" />
+            <element signature="e#14671#14672#0" expanded="true" />
+            <element signature="e#15231#15981#0" expanded="true" />
+            <element signature="e#15966#15967#0" expanded="true" />
+            <element signature="e#16222#18809#0" expanded="true" />
+            <element signature="e#16584#18739#0" expanded="true" />
+            <element signature="e#16725#17026#0" expanded="true" />
+            <element signature="e#16995#16996#0" expanded="true" />
+            <element signature="e#17135#17357#0" expanded="true" />
+            <element signature="e#17322#17323#0" expanded="true" />
+            <element signature="e#17763#18106#0" expanded="true" />
+            <element signature="e#18067#18068#0" expanded="true" />
+            <element signature="e#18715#18716#0" expanded="true" />
+            <element signature="e#18794#18795#0" expanded="true" />
+            <element signature="e#19604#19803#0" expanded="true" />
+            <element signature="e#19788#19789#0" expanded="true" />
+            <element signature="e#19924#20329#0" expanded="true" />
+            <element signature="e#20314#20315#0" expanded="true" />
+            <element signature="e#22601#22930#0" expanded="true" />
+            <element signature="e#22919#22920#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 19 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>app</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: mysql-connector-java-5.0.8-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

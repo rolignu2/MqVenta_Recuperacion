@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MqVentaMain" >
+    tools:context=".MqVentaMain"
+    android:background="@drawable/background">
 
     <ScrollView
         android:id="@+id/scrollView1"
@@ -20,19 +21,11 @@
             android:gravity="center"
             android:orientation="vertical" >
 
-            <TextView
-                android:id="@+id/lbltitulo"
-                android:layout_width="278dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="36dp"
-                android:layout_marginTop="26dp"
-                android:text="@string/hello_world" />
-
             <ExpandableListView
                 android:id="@+id/Menu_lista_expandible"
                 android:layout_width="match_parent"
                 android:layout_height="106dp"
-                android:layout_weight="0.42">
+                android:layout_weight="0.10">
             </ExpandableListView>
 
             <Button
@@ -83,6 +76,14 @@
                 android:shadowRadius="25"
                 android:text="Productos"
                 android:textColor="@color/blanco" />
+
+            <TextView
+                android:id="@+id/lbltitulo"
+                android:layout_width="278dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="26dp"
+                android:text="@string/hello_world" />
         </LinearLayout>
 
     </ScrollView>

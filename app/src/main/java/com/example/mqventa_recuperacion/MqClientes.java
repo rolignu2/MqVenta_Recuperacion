@@ -90,6 +90,7 @@ public class MqClientes extends Activity {
 		TabHost.TabSpec spec=Tabulador.newTabSpec("Personales");
 		spec.setContent(R.id.tab1);
 		spec.setIndicator("Registro");
+
 		Tabulador.addTab(spec);
 		 
 		//configuracion del segundo tabulador para obtencion de deudas
