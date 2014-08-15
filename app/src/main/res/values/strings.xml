@@ -13,11 +13,16 @@
     <string name="registro_recuperacion">Registro Recuperacion</string>
     <string name="deprecation">deprecation</string>
     <string name="title_activity_crecuperacion__mq">CRecuperacion_MQ</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">Seleccionar Usuario</string>
+    <string name="title_section2">Crear Recuperacion</string>
+    <string name="title_section3">...</string>
     <string name="title_activity_mq_productos">"MQ Manejo de Productos "</string>
     <string name="title_activity_menu_prod_popup">menu_prod_popup</string>
     <string name="title_activity_mq_ver_producto">MqVerProducto</string>
+    <string name="title_activity_mq_edit_producto">MqEditProducto</string>
+    <string name="title_activity_usr_recuperacion">UsrRecuperacion</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
 
 </resources>

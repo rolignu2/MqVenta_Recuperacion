@@ -249,7 +249,7 @@ public class MqVentaMain extends Activity {
 	
 	public void Ejecutar_CreacionRecuperacion(View view)
 	{
-		Intent i = new Intent(this, CRecuperacion_MQ.class);
+		Intent i = new Intent(this, UsrRecuperacion.class);
 		startActivity(i);
 	}
 	

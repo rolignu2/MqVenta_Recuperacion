@@ -6,6 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
     tools:context=".MqRecuperacion" >
 
     <Space
@@ -47,21 +48,27 @@
 
         <ScrollView
             android:id="@+id/scrollView1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_width="355dp"
+            android:layout_height="415dp" >
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical" >
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="400dp"
+                >
 
                 <ListView
                     android:id="@+id/ListClientes"
                     android:layout_width="274dp"
-                    android:layout_height="311dp" >
+                    android:layout_height="311dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp">
                 </ListView>
 
-            </LinearLayout>
+            </RelativeLayout>
         </ScrollView>
 
     </FrameLayout>

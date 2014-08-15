@@ -42,13 +42,17 @@
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
     <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
+    <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">MQ  Venta y Recuperacion version movil</string>
     <string name="deprecation">deprecation</string>
     <string name="hello_world">Hello world!</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="nombres_">Nombres:</string>
     <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/strings_activity_crear_recuperacion_mq_recuperacion.xml -->
     <eat-comment />
@@ -82,11 +86,13 @@
     <string name="title_activity_crecuperacion__mq">CRecuperacion_MQ</string>
     <string name="title_activity_menu_prod_popup">menu_prod_popup</string>
     <string name="title_activity_mq_clientes">MqClientes</string>
+    <string name="title_activity_mq_edit_producto">MqEditProducto</string>
     <string name="title_activity_mq_entrada__recuperacion">MqEntrada_Recuperacion</string>
     <string name="title_activity_mq_productos">"MQ Manejo de Productos "</string>
     <string name="title_activity_mq_recuperacion">MqRecuperacion</string>
     <string name="title_activity_mq_ver_cliente_recuperacion">MqVerClienteRecuperacion</string>
     <string name="title_activity_mq_ver_producto">MqVerProducto</string>
+    <string name="title_activity_usr_recuperacion">UsrRecuperacion</string>
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>

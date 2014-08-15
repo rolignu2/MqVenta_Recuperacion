@@ -13,33 +13,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/imageView_imagen"
-        android:layout_marginLeft="54dp"
         android:layout_marginTop="16dp"
-        android:layout_toRightOf="@+id/imageView_imagen"
+        android:textSize="16dp"
         android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:layout_toRightOf="@+id/imageView_imagen" />
 
     <TextView
         android:id="@+id/textView_inferior"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView_superior"
-        android:layout_below="@+id/textView_superior"
-        android:layout_marginRight="14dp"
+        android:textSize="12dp"
         android:text="Small Text"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
+        android:paddingTop="25dp"
+        android:layout_below="@+id/textView_superior"
+        android:layout_toRightOf="@+id/imageView_imagen"
+        android:layout_alignTop="@+id/textView_superior"
+        />
 
     <ImageView
         android:id="@+id/imageView_imagen"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="18dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="23dp"
         android:adjustViewBounds="true"
         android:contentDescription="Descripción del contenido de la imagen"
         android:scaleType="fitXY"
-        android:src="@android:drawable/ic_menu_gallery" />
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout><!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/layout/activity_mq_entrada__recuperacion.xml -->

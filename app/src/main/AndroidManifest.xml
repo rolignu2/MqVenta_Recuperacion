@@ -45,16 +45,20 @@
             android:label="@string/title_activity_crear_recuperacion_mq_recuperacion" >
         </activity>
         <activity
-            android:name="com.example.mqventa_recuperacion.CRecuperacion_MQ"
-            android:label="@string/title_activity_crecuperacion__mq" >
-        </activity>
-        <activity
             android:name="com.example.mqventa_recuperacion.MqProductos"
             android:label="@string/title_activity_mq_productos" >
         </activity>
         <activity
             android:name="com.example.mqventa_recuperacion.MqVerProducto"
             android:label="@string/title_activity_mq_ver_producto" >
+        </activity>
+        <activity
+            android:name="com.example.mqventa_recuperacion.MqEditProducto"
+            android:label="@string/title_activity_mq_edit_producto" >
+        </activity>
+        <activity
+            android:name="com.example.mqventa_recuperacion.UsrRecuperacion"
+            android:label="@string/title_activity_usr_recuperacion" >
         </activity>
     </application>
 

@@ -401,6 +401,8 @@ public class MqProductos extends Activity {
 
             PopupMenu popupMenu = new PopupMenu(NewContext, view);
             popupMenu.getMenuInflater().inflate(menu, popupMenu.getMenu());
+            String[] split_prod = SelItem.split(" ");
+            final String id_prod = split_prod[0];
             popupMenu.setOnMenuItemClickListener(new OnMenuItemClickListener() {
                 @Override
                 public boolean onMenuItemClick(MenuItem item)
@@ -409,13 +411,11 @@ public class MqProductos extends Activity {
                     switch (item.getItemId())
                     {
                         case R.id.menu_opt1:
-                            String[] split_prod = SelItem.split(" ");
-                            final String id_prod = split_prod[0];
                             MqVerProducto.PlaceholderFragment.id_producto = id_prod;
                             VerProducto();
                             break;
                         case R.id.menu_opt2:
-
+                            EditarProducto();
                             break;
                         case R.id.menu_opt3:
                             EliminarProd(SelItem);
@@ -434,6 +434,12 @@ public class MqProductos extends Activity {
         private void VerProducto()
         {
             Intent i = new Intent(NewContext ,MqVerProducto.class);
+            super.startActivity(i);
+        }
+
+        private void EditarProducto()
+        {
+            Intent i = new Intent(NewContext ,MqEditProducto.class);
             super.startActivity(i);
         }
 

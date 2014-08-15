@@ -23,11 +23,13 @@
         </activity>
         <activity android:label="@string/title_activity_crear_recuperacion_mq_recuperacion" android:name="com.example.mqventa_recuperacion.CrearRecuperacion_mq_recuperacion">
         </activity>
-        <activity android:label="@string/title_activity_crecuperacion__mq" android:name="com.example.mqventa_recuperacion.CRecuperacion_MQ">
-        </activity>
         <activity android:label="@string/title_activity_mq_productos" android:name="com.example.mqventa_recuperacion.MqProductos">
         </activity>
         <activity android:label="@string/title_activity_mq_ver_producto" android:name="com.example.mqventa_recuperacion.MqVerProducto">
+        </activity>
+        <activity android:label="@string/title_activity_mq_edit_producto" android:name="com.example.mqventa_recuperacion.MqEditProducto">
+        </activity>
+        <activity android:label="@string/title_activity_usr_recuperacion" android:name="com.example.mqventa_recuperacion.UsrRecuperacion">
         </activity>
     </application>
 

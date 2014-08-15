@@ -203,6 +203,8 @@
             <file
                 path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\values\dimens.xml"
                 qualifiers="" >
+                <dimen name="navigation_drawer_width" >240dp
+                </dimen>
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
                 <dimen name="activity_vertical_margin" >16dp
@@ -225,17 +227,23 @@
                 </string>
                 <string name="title_activity_mq_productos" >"MQ Manejo de Productos "
                 </string>
+                <string name="navigation_drawer_close" >Close navigation drawer
+                </string>
                 <string name="title_activity_mq_ver_producto" >MqVerProducto
                 </string>
+                <string name="title_activity_mq_edit_producto" >MqEditProducto
+                </string>
                 <string name="title_activity_mq_entrada__recuperacion" >MqEntrada_Recuperacion
+                </string>
+                <string name="action_example" >Example action
                 </string>
                 <string name="nombres_" >Nombres:
                 </string>
                 <string name="app_name" >MQ  Venta y Recuperacion version movil
                 </string>
-                <string name="registro_recuperacion" >Registro Recuperacion
-                </string>
                 <string name="deprecation" >deprecation
+                </string>
+                <string name="registro_recuperacion" >Registro Recuperacion
                 </string>
                 <string name="title_activity_mq_recuperacion" >MqRecuperacion
                 </string>
@@ -246,6 +254,10 @@
                 <string name="title_activity_mq_clientes" >MqClientes
                 </string>
                 <string name="title_activity_menu_prod_popup" >menu_prod_popup
+                </string>
+                <string name="navigation_drawer_open" >Open navigation drawer
+                </string>
+                <string name="title_activity_usr_recuperacion" >UsrRecuperacion
                 </string>
             </file>
             <file
@@ -558,6 +570,86 @@ Never
             <file
                 name="background2"
                 path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\background2.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fragment_mq_edit_producto"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_mq_edit_producto.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="mq_edit_producto"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\menu\mq_edit_producto.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_mq_edit_producto"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\activity_mq_edit_producto.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_drawer"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-xxhdpi\ic_drawer.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-mdpi\ic_drawer.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fragment_usr_recuperacion"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_usr_recuperacion.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="drawer_shadow"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-xxhdpi\drawer_shadow.9.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-mdpi\drawer_shadow.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\drawer_shadow.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-xhdpi\drawer_shadow.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="global"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\menu\global.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="fragment_navigation_drawer"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_navigation_drawer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_drawer"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-xhdpi\ic_drawer.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="activity_usr_recuperacion"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\activity_usr_recuperacion.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="usr_recuperacion"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\menu\usr_recuperacion.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="ic_drawer"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\ic_drawer.png"
                 qualifiers="hdpi"
                 type="drawable" />
         </source>
