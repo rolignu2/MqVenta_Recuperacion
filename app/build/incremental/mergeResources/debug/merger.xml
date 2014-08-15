@@ -225,6 +225,8 @@
                 </string>
                 <string name="title_activity_mq_productos" >"MQ Manejo de Productos "
                 </string>
+                <string name="title_activity_mq_ver_producto" >MqVerProducto
+                </string>
                 <string name="title_activity_mq_entrada__recuperacion" >MqEntrada_Recuperacion
                 </string>
                 <string name="nombres_" >Nombres:
@@ -538,6 +540,26 @@ Never
                 path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\menu\menu_prod.xml"
                 qualifiers=""
                 type="menu" />
+            <file
+                name="activity_mq_ver_producto"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\activity_mq_ver_producto.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="mq_ver_producto"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\menu\mq_ver_producto.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="fragment_mq_ver_producto"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\layout\fragment_mq_ver_producto.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="background2"
+                path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\src\main\res\drawable-hdpi\background2.jpg"
+                qualifiers="hdpi"
+                type="drawable" />
         </source>
         <source path="C:\Users\rolandoantonio\AndroidStudioProjects\MqVenta_Recuperacion\app\build\res\rs\debug" />
     </dataSet>

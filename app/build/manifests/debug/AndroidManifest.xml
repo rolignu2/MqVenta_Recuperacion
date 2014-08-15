@@ -27,6 +27,8 @@
         </activity>
         <activity android:label="@string/title_activity_mq_productos" android:name="com.example.mqventa_recuperacion.MqProductos">
         </activity>
+        <activity android:label="@string/title_activity_mq_ver_producto" android:name="com.example.mqventa_recuperacion.MqVerProducto">
+        </activity>
     </application>
 
 </manifest>

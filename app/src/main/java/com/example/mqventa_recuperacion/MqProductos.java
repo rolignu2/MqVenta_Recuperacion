@@ -22,6 +22,7 @@ import android.app.FragmentTransaction;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.DataSetObserver;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -408,8 +409,13 @@ public class MqProductos extends Activity {
                     switch (item.getItemId())
                     {
                         case R.id.menu_opt1:
+                            String[] split_prod = SelItem.split(" ");
+                            final String id_prod = split_prod[0];
+                            MqVerProducto.PlaceholderFragment.id_producto = id_prod;
+                            VerProducto();
                             break;
                         case R.id.menu_opt2:
+
                             break;
                         case R.id.menu_opt3:
                             EliminarProd(SelItem);
@@ -423,6 +429,12 @@ public class MqProductos extends Activity {
                 }
             });
             popupMenu.show();
+        }
+
+        private void VerProducto()
+        {
+            Intent i = new Intent(NewContext ,MqVerProducto.class);
+            super.startActivity(i);
         }
 
 

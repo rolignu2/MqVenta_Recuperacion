@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.mqventa_recuperacion.MqVerProducto$PlaceholderFragment"
+    android:background="@drawable/background2"
+    android:clickable="false">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/VerProdIMG"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/buttonew1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIANDO EL PRODUCTO"
+        android:id="@+id/TxtVerProd_Producto"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:shadowColor="@color/blanco"
+        android:textStyle="bold"
+        android:layout_below="@+id/VerProdIMG"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIANDO EL PRODUCTO"
+        android:id="@+id/TxtVerProd_Envase"
+        android:layout_marginTop="15dp"
+        android:textSize="14dp"
+        android:shadowColor="@color/blanco"
+        android:textStyle="bold"
+        android:layout_below="@+id/TxtVerProd_Producto"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIANDO EL PRODUCTO"
+        android:id="@+id/TxtVerProd_Cantidad"
+        android:layout_marginTop="15dp"
+        android:textSize="14dp"
+        android:shadowColor="@color/azul"
+        android:textStyle="bold"
+        android:layout_below="@+id/TxtVerProd_Envase"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIANDO EL PRODUCTO"
+        android:id="@+id/TxtVerProd_PrecioUnit"
+        android:layout_marginTop="15dp"
+        android:textSize="14dp"
+        android:shadowColor="@color/azul"
+        android:textStyle="bold"
+        android:layout_below="@+id/TxtVerProd_Cantidad"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIANDO EL PRODUCTO"
+        android:id="@+id/TxtVerProd_PrecioIva"
+        android:layout_marginTop="15dp"
+        android:textSize="14dp"
+        android:shadowColor="@color/azul"
+        android:textStyle="bold"
+        android:layout_below="@+id/TxtVerProd_PrecioUnit"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIANDO EL PRODUCTO"
+        android:id="@+id/TxtVerProd_Total"
+        android:layout_marginTop="15dp"
+        android:textSize="14dp"
+        android:shadowColor="@color/azul"
+        android:textStyle="bold"
+        android:layout_below="@+id/TxtVerProd_PrecioIva"
+        android:layout_centerHorizontal="true" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/TxtVerProd_Total"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/layout/fragment_mq_ver_producto.xml -->

@@ -86,6 +86,7 @@
     <string name="title_activity_mq_productos">"MQ Manejo de Productos "</string>
     <string name="title_activity_mq_recuperacion">MqRecuperacion</string>
     <string name="title_activity_mq_ver_cliente_recuperacion">MqVerClienteRecuperacion</string>
+    <string name="title_activity_mq_ver_producto">MqVerProducto</string>
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
