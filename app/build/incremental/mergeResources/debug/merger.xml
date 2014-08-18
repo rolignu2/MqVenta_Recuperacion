@@ -215,15 +215,15 @@
                 qualifiers="" >
                 <string name="textview" >TextView
                 </string>
-                <string name="title_section1" >Section 1
+                <string name="title_section1" >Seleccionar Usuario
                 </string>
                 <string name="title_activity_crecuperacion__mq" >CRecuperacion_MQ
                 </string>
-                <string name="title_section3" >Section 3
+                <string name="title_section3" >Menu Principal
                 </string>
                 <string name="action_settings" >Settings
                 </string>
-                <string name="title_section2" >Section 2
+                <string name="title_section2" >Crear Recuperacion
                 </string>
                 <string name="title_activity_mq_productos" >"MQ Manejo de Productos "
                 </string>

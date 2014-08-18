@@ -106,16 +106,13 @@ public class UsrRecuperacion extends Activity
      * A placeholder fragment containing a simple view.
      */
     public static class PlaceholderFragment extends Fragment {
-        /**
-         * The fragment argument representing the section number for this
-         * fragment.
-         */
-        private static final String ARG_SECTION_NUMBER = "section_number";
 
-        /**
-         * Returns a new instance of this fragment for the given section
-         * number.
-         */
+
+
+        private static final String ARG_SECTION_NUMBER = "section_number";
+        private View rootView;
+        private int seccion = 0;
+
         public static PlaceholderFragment newInstance(int sectionNumber) {
             PlaceholderFragment fragment = new PlaceholderFragment();
             Bundle args = new Bundle();
@@ -130,7 +127,19 @@ public class UsrRecuperacion extends Activity
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_usr_recuperacion, container, false);
+
+            seccion = getArguments().getInt(ARG_SECTION_NUMBER);
+            switch (seccion)
+            {
+                case 1:
+                    rootView = inflater.inflate(R.layout.fragment_usr_recuperacion, container, false);
+                    break;
+                case 2:
+                    rootView = inflater.inflate(R.layout.fragment_usr_recuperacion, container, false);
+                    break;
+
+            }
+
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;
@@ -142,6 +151,10 @@ public class UsrRecuperacion extends Activity
             ((UsrRecuperacion) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
+
+
+
+
     }
 
 }
