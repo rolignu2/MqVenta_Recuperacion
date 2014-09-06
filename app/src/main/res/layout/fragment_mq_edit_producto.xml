@@ -7,7 +7,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.mqventa_recuperacion.MqEditProducto$PlaceholderFragment"
-    android:background="@drawable/background2">
+    android:background="@drawable/bkstable">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -35,13 +35,15 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Nombre Producto"
-                android:textColor="@color/blanco"
                 android:id="@+id/textView"
                 android:gravity="center"
                 android:layout_marginTop="55dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:editable="false"
+                android:textSize="16dp"
+                android:textIsSelectable="false" />
 
             <EditText
                 android:layout_width="259dp"
@@ -61,13 +63,15 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Envase del Producto"
-                android:textColor="@color/blanco"
                 android:id="@+id/textView2"
                 android:gravity="center"
                 android:layout_below="@+id/txt_nombre_prod"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginTop="24dp" />
+                android:layout_marginTop="24dp"
+                android:editable="false"
+                android:textSize="16dp"
+                android:textIsSelectable="false" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -89,13 +93,15 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Cantidad de Producto"
-                android:textColor="@color/blanco"
                 android:id="@+id/textView3"
                 android:gravity="center"
                 android:layout_marginTop="29dp"
                 android:layout_below="@+id/txt_envase_prod"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:editable="false"
+                android:textSize="16dp"
+                android:textIsSelectable="false" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -115,13 +121,15 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="Precio (sin iva)"
-                android:textColor="@color/blanco"
                 android:id="@+id/textView4"
                 android:gravity="center"
                 android:layout_marginTop="24dp"
                 android:layout_below="@+id/txt_cantidad_prod"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:editable="false"
+                android:textSize="16dp"
+                android:textIsSelectable="false" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -165,13 +173,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Precio (Con iva)"
-                android:textColor="@color/blanco"
                 android:id="@+id/textView5"
                 android:layout_alignTop="@+id/textView4"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignLeft="@+id/txt_precioIVA_prod"
-                android:layout_alignStart="@+id/txt_precioIVA_prod" />
+                android:layout_alignStart="@+id/txt_precioIVA_prod"
+                android:editable="false"
+                android:textSize="16dp"
+                android:textIsSelectable="false" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -197,7 +207,6 @@
                 android:layout_alignEnd="@+id/txt_precio_prod"
                 tools:listitem="@android:layout/simple_expandable_list_item_1"
                 style="@android:style/Animation"
-                android:background="@drawable/background"
                 android:overScrollFooter="@drawable/redbackground"
                 android:overScrollHeader="@drawable/redbackground" />
 

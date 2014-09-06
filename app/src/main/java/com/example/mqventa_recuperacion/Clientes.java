@@ -144,7 +144,6 @@ public class Clientes extends Conexion {
 			super.AbrirConexion();
 			String sql = "Select * from clientes";
 			resultado = super.Get_Consulta(sql);
-			super.CerrarConexion();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

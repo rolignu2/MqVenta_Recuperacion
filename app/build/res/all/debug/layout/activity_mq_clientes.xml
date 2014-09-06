@@ -7,7 +7,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MqClientes"
-    android:background="@drawable/background">
+    android:background="@drawable/bkstable">
 
     <TabHost
         android:id="@android:id/tabhost"
@@ -53,7 +53,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/nombres_"
-                            android:textColor="@color/blanco" />
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:textIsSelectable="true" />
 
                         <EditText
                             android:id="@+id/txtnombre_clientes"
@@ -68,7 +70,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Apellidos:"
-                            android:textColor="@color/blanco" />
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:textIsSelectable="true" />
 
                         <EditText
                             android:id="@+id/txtapellido_clientes"
@@ -86,7 +90,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Dui:"
-                            android:textColor="@color/blanco" />
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:textIsSelectable="true" />
 
                         <EditText
                             android:id="@+id/txtdui_clientes"
@@ -101,7 +107,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Nit:"
-                            android:textColor="@color/blanco" />
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:textIsSelectable="true" />
 
                         <EditText
                             android:id="@+id/txtnit_clientes"
@@ -116,7 +124,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Telefono"
-                            android:textColor="@color/blanco" />
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:textIsSelectable="true" />
 
                         <EditText
                             android:id="@+id/txtelefono_clientes"
@@ -131,7 +141,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Numero de Giro:"
-                            android:textColor="@color/blanco" />
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:textIsSelectable="true" />
 
                         <EditText
                             android:id="@+id/txtgiro_clientes"
@@ -146,7 +158,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Direccion"
-                            android:textColor="@color/blanco" />
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:textIsSelectable="true" />
 
                         <EditText
                             android:id="@+id/txtdireccion_clientes"

@@ -93,9 +93,9 @@
     <string name="title_activity_mq_ver_cliente_recuperacion">MqVerClienteRecuperacion</string>
     <string name="title_activity_mq_ver_producto">MqVerProducto</string>
     <string name="title_activity_usr_recuperacion">UsrRecuperacion</string>
-    <string name="title_section1">Seleccionar Usuario</string>
+    <string name="title_section1">Seleccionar Cliente</string>
     <string name="title_section2">Crear Recuperacion</string>
-    <string name="title_section3">Menu Principal</string>
+    <string name="title_section3">Historial Cliente</string>
     <!-- From: file:/C:/Users/rolandoantonio/AndroidStudioProjects/MqVenta_Recuperacion/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
